@@ -9,7 +9,7 @@ export function setupAndTeardown() {
   beforeEach(() => {
     // Required to able to generate token in email in some cases
     //@ts-expect-error - It is a readonly variable
-    process.env.CALENDSO_ENCRYPTION_KEY = "abcdefghjnmkljhjklmnhjklkmnbhjui";
+    process.env.CALENDSO_ENCRYPTION_KEY = "lXLdCN0mz9iOrMsB66XemHjxAo9LSMrwQvf7/PNSb9Q=";
     //@ts-expect-error - It is a readonly variable
     process.env.STRIPE_WEBHOOK_SECRET = "MOCK_STRIPE_WEBHOOK_SECRET";
     // We are setting it in vitest.config.ts because otherwise it's too late to set it.
